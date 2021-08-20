@@ -20,7 +20,6 @@ describe('single page applications', ()=>{
 
     const submit=()=>cy.get('button[id="order-button"]')
 
-
     it('check text input',()=>{
         textInput()
         .should('have.value','')
